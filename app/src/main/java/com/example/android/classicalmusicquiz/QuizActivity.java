@@ -161,7 +161,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         return buttons;
     }
 
-
     /**
      * The OnClick method for all of the answer buttons. The method uses the index of the button
      * in button array to to get the ID of the sample from the array of question IDs. It also
@@ -242,7 +241,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
     }
-
     // TODO (11): Override onDestroy() to stop and release the player when the Activity is destroyed.
     @Override
     protected void onDestroy() {
